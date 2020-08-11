@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "Adobe Arabic";
+    src: url(22016-adobearabic.ttf);
+}
+/*start header*/
+.ico {
+   color: #252959;
+
+}
+.ico:hover{
+   cursor:pointer ;
+}
+/*End header*/
+/*start nav*/
+.nav-bar1{
+    direction: rtl;
+    position: absolute;
+    z-index: 2;
+    color: white !important;
+border-bottom: 1px solid #0056b3;
+    background-color: rgba(0,0,0,0.31) !important;
+
+}
+.nav-bar1 a{
+  color: #eeeeee !important;
+    font-style: italic;
+    font-family: "Adobe Arabic";
+    font-weight: bold;
+    font-size: 25px;
+}
+.dropdown-menu .dropdown-item{
+    color: black !important;
+}
+.bat-nav{
+    font-style: italic;
+    font-family: "Adobe Arabic";
+    font-weight: bold;
+    font-size: 22px;
+}
+.edit-color{
+    color: #252959;
+    border:2px solid #252959;
+}
+/*End nav*/
+/*start slider*/
+carousel2{
+    position: relative;
+    z-index: 0;
+}
+.carousel-control-prev{
+    padding-top: 150px;
+}
+.carousel-control-next{
+    padding-top: 150px;
+}
+/*.carousel2{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.carousel-item img{
+    /*height: 100vh;*/
+}
+.carousel-control-prev-icon{
+   margin-top: 100%;
+    padding-top: 80px;
+}
+.carousel-control-next-icon{
+    margin-top: 100%;
+}
+@media (max-width: 576px) {
+    .carousel-item img {
+        height:80vh;
+    }
+    .form-1{
+        display: none;
+    }
+    .nav-bar1{
+        padding-bottom: 2px !important;
+        border: 0;
+    }
+
+}
+
+    /*}*/
+    /*.carousel-control-prev-icon{*/
+    /*    margin-top: 100%;*/
+    /*}*/
+    /*.carousel-control-next-icon{*/
+    /*    margin-top: 100%;*/
+    /*}*/
+.pargraph{
+    width: 80%;
+}
+
+.carousel-item .first-slider{
+    position:relative;
+        z-index: 1;
+}
+.carousel-item h1{
+    position:absolute;
+    z-index: 5;
+    right:10%;
+    font-weight: bold;
+    color: white;
+    top:30%;
+    font-family:"Adobe Arabic";
+    font-size: 50px;
+}
+.ca-it h1 {
+    font-family:"Adobe Arabic";
+    font-size: 80px;
+}
+
+/*End slider*/
+/*start paragraph*/
+
+.con-2{
+    direction: rtl;
+    background-image: url("img/abstract-paper-hexagon-white-background_51543-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 48px;
+}
+.con-2 h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    font-family: "Adobe Arabic";
+}
+.con-2 p{
+    line-height:1.8;
+}
+.bat1{
+    /*line-height: inherit;*/
+color: white;
+    width: auto;
+    border: 2px solid transparent;
+    background-color: #252959;
+    transition: .5s all;
+    border-radius: 5%;
+    transition: all 1.5s;
+    font-family: "Adobe Arabic";
+    font-size: 25px;
+}
+.bat1:hover{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #0056b3;
+    color:#0056b3 ;
+}
+@media (max-width: 576px) {
+    .con-2{
+        padding-right: 5px;
+        padding-left: 0px;
+
+    }
+    .con-2 iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+/*End paragraph*/
+.diss{
+    background: #f7f7f7;
+}
+.diss h1{
+    font-family: "Adobe Arabic";
+    font-style: italic;
+    font-size: 50px;
+}
+.diss i {
+    background-color:#252959;
+    border-radius: 10%;
+    padding: 10px;
+    color: #eeeeee;
+    cursor: pointer;
+}
+.diss h3{
+    font-family: "Adobe Arabic";
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 10px;
+}
+.diss h5{
+    padding-bottom:20px ;
+    line-height: 1.6;
+}
+.da img {
+    border: 1px solid #000000;
+    border-radius: 50%;
+    max-width: 55%;
+    max-height: 70%;
+    cursor: pointer;
+}
+.da h1{
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    font-weight: 600;
+    font-size: 50px;
+}
+.da h3{
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    font-weight: 600;
+    font-size: 40px;
+}
+.tt{
+    background-image: url("img/winner-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+
+}
+.text-1{
+padding-top: 10%;
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    font-weight: 600;
+    font-size: 70px;
+    color:#b6932f;
+}
+.text-2{
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    font-weight: 600;
+    font-size: 50px;
+    color:#b6932f;
+}
+.con{
+    background-color: #252959;
+}
+@media (max-width: 576px){
+    .con{
+        height: 720px;
+    }
+}
+.sli-1{
+    background-color:#1c1c3b;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    border-radius: 5%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+.carousel-inner h3{
+    font-size: 42px;
+    font-weight: bold;
+
+
+}
+.sli-1 img{
+    height: 40vh;
+    margin-right: 20%;
+   border: 10px solid white;
+}
+@media (max-width: 576px) {
+    .img-in-slider{
+        position: relative;
+        z-index: 0;
+    }
+    .slidr{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+
+    }
+    .sli-1{
+        background-color: rgba(28,28,59,0.48);
+    }
+}
+.Bared{
+    background-image: url("img/abstract-paper-hexagon-white-background_51543-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: inherit;
+    font-family:"Adobe Arabic";
+    font-size: 35px;
+}
+.Bared h2{
+    font-weight: bold;
+    /*font-size: 25px;*/
+}
+.edit{
+    border-radius: 0;
+padding-top: 3px;
+padding-bottom: 3px;
+    font-size: 29px !important;
+}
+@media (max-width: 576px) {
+    .in{
+        max-width:50%;
+
+    }
+
+}
+
+.input-1{
+    font-size: 30px !important;
+}
+.last-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-form{
+    background-color: white;
+    border-bottom: 2px solid black;
+    font-family: "Adobe Arabic";
+    font-style: inherit;
+    color: #666;
+    font-size: 30px;
+    border-radius: 5%;
+}
+.last-con{
+    background-image: url("img/inquiry-bg2.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+.foot a{
+    font-size: 20px;
+    font-family: "Adobe Arabic";
+    font-weight: 500;
+    color: #b3b3b3;
+    display: inline-block;
+    transition: .5s all;
+    text-decoration: none;
+}
+.foot a:hover{
+    color: #000;
+}
+.ba{
+    background-color:#252959 ;
+    color: #b3b3b3;
+    font-family: "Adobe Arabic";
+    font-size: 25px;
+
+}
+@media (max-width: 576px) {
+    .ba{
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .edit-size h1{
+        font-size: 60px;
+    }
+}
